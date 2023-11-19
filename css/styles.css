@@ -27,7 +27,7 @@ body {
 	font-size: 12px;
 	text-decoration: none;
 	color: #007a5a;
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .container {
@@ -158,16 +158,18 @@ hr {
 	background-color: purple;
 	color: white;
 }
+
 .existing-user-text {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 14px; 
-    color: #333;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #333;
 }
+
 .sign-in-link {
-    color: #007a5a; 
-    text-decoration: underline;
-    cursor: pointer; 
-    font-size: 14px; 
+	color: #007a5a;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 14px;
 
 }

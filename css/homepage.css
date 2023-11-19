@@ -1,207 +1,221 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color:#333;
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    z-index: 1000;
-    border-bottom: 1px solid #484848;
-  }
-  
-  .left-section {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-  .left-section i {
-    margin-right: 15px; 
-  }
-  
-  .arrow {
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  .search-bar {
-    padding: 5px;
-    width: 600px;
-    border: none;
-    border-radius: 5px;
-    margin: 0 10px;
-  }
-  
-  .icons {
-    display: flex;
-  }
-  
-  .icon {
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  .vertical-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 80px; 
-    background-color: #333;
-    color: white;
-    border-right: 1px solid #484848;
-
-  }
-  
-  .nav-item {
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .nav-item i {
-    margin-bottom: 5px;
-    display: block;
-  }
-  .nav-item span {
-    font-size: 10px;
-  }
-  
-  
-  .home {
-    top: 60px;
-  }
-  
-  .activity {
-    top: 50px;
-  }
-  
-  .dm {
-    top: 50px; 
-  }
-  .dark-background {
-    margin-top:55px;
-    background-color: #333; /* Dark background color */
-    color: white; /* Text color */
-    padding: 1px; /* Adjust padding as needed */
-    padding-left: 438px;
-    
-  }
-  
-.dark-background p {
-  font-size: 14px; 
-  font-weight: bold;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #333;
 }
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	z-index: 1000;
+	border-bottom: 1px solid #484848;
+}
+
+.left-section {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.left-section i {
+	margin-right: 15px;
+}
+
+.arrow {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.search-bar {
+	padding: 5px;
+	width: 600px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.icons {
+	display: flex;
+}
+
+.icon {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.vertical-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 80px;
+	background-color: #333;
+	color: white;
+	border-right: 1px solid #484848;
+
+}
+
+.nav-item {
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+
+.nav-item i {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.nav-item span {
+	font-size: 10px;
+}
+
+
+.home {
+	top: 60px;
+}
+
+.activity {
+	top: 50px;
+}
+
+.dm {
+	top: 50px;
+}
+
+.dark-background {
+	margin-top: 55px;
+	background-color: #333;
+	color: white;
+	padding: 1px;
+	padding-left: 438px;
+
+}
+
+.dark-background p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
 .blue-background {
-  padding-top: 10px;
-  padding-bottom: 30px;
-  padding-left: 438px;
-  background-color: #053656; 
-  color: white; 
-  border: 1px solid rgba(128, 128, 128, 0.323);
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 438px;
+	background-color: #053656;
+	color: white;
+	border: 1px solid rgba(128, 128, 128, 0.323);
 }
 
 .first-line {
-  font-size: 18px; 
-  font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
 }
+
 .blue-background p {
-  margin:10px; /* Adjust the margin between paragraphs */
+	margin: 10px;
 }
+
 .create-channel-btn {
-  font-weight: bold;
-  font-size: 12px;
-  background-color:#333; /* Green button color */
-  color: white; /* Text color */
-  padding: 8px 17px; /* Adjust padding as needed */
-  border: 1px solid grey; /* Add white border */
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px; /* Add margin to separate the button from the text */
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #333;
+	color: white;
+	padding: 8px 17px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
 }
+
 .medium-text {
-  font-weight: bold;
-  color:grey;
-  font-size: 12px; /* Font size for the second line */
+	font-weight: bold;
+	color: grey;
+	font-size: 12px;
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .row {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 #help {
-  font-weight: bold;
-  color: #3498db;
+	font-weight: bold;
+	color: #3498db;
 }
+
 .medium-background {
-   margin: 0 350px ;
-    background-color: rgba(0, 0, 0, 0.13); /* Dark background color */
-    color: white; /* Text color */
-    padding: 0.1px; /* Adjust padding as needed */
-    border: 0.1px solid #cccccc91;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+	margin: 0 350px;
+	background-color: rgba(0, 0, 0, 0.13);
+	color: white;
+	padding: 0.1px;
+	border: 0.1px solid #cccccc91;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
+
 .medium-background p {
-  padding-top: px;
-  padding-left: 30px;
-  margin: 0px;
-  
+	padding-top: px;
+	padding-left: 30px;
+	margin: 0px;
+
 }
 
 .top-text {
-  padding-top: 10px;
-  font-weight: bold;
+	padding-top: 10px;
+	font-weight: bold;
 }
+
 .member-text {
-  padding-top: 5px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 12px;
-  color: gray;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	color: gray;
 }
+
 .medium-background1 {
-  margin: 0 350px ;
-   background-color: rgba(0, 0, 0, 0.13); /* Dark background color */
-   color: white; /* Text color */
-   padding: 1px; /* Adjust padding as needed */
-   border: 1px solid #cccccc91;
+	margin: 0 350px;
+	background-color: rgba(0, 0, 0, 0.13);
+	color: white;
+	padding: 1px;
+	border: 1px solid #cccccc91;
 }
+
 .medium-background1 p {
-  padding-top: px;
-  padding-left: 30px;
-  margin: 0px;
-  
+	padding-top: px;
+	padding-left: 30px;
+	margin: 0px;
+
 }
+
 .search-bar {
-  margin-top: 10px;
-  position: relative;
+	margin-top: 10px;
+	position: relative;
 }
+
 .search-bar input {
-  margin: 0 335px 10px ;
-  width: 133%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color:rgba(0, 0, 0, 0.13);
-  color: white;
-  border: 1px solid #cccccc91;
+	margin: 0 335px 10px;
+	width: 133%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.13);
+	color: white;
+	border: 1px solid #cccccc91;
 
 }

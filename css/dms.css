@@ -1,0 +1,127 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.left-container {
+	width: 30%;
+	background-color: rgba(48, 47, 47, 0.604);
+	padding: 20px;
+	height: 100%;
+}
+
+.right-container {
+	width: 70%;
+	background-color: rgba(65, 63, 63, 0.604);
+	padding: 20px;
+}
+
+.right-row {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-row div {
+	margin-bottom: 15px;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.left-row {
+	margin-top: 50px;
+	padding-left: 80px;
+
+}
+
+.left-row p {
+	padding-left: 10px;
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.left-row span {
+	padding-left: 10px;
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.left-row i {
+	padding-left: 10px;
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.right-row div.text-field {
+
+	margin-top: 5px;
+}
+
+.right-row div.text-field textarea {
+	color: wheat;
+	background-color: rgba(48, 47, 47, 0.604);
+	;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px;
+	margin-top: 10px;
+	resize: vertical;
+	border: 1px solid rgba(48, 47, 47, 0.604);
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.right-row div button {
+	margin-top: 5px;
+	padding: 10px;
+	margin-right: 10px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid grey;
+}
+
+.right-row div button:hover {
+	background-color: rgba(61, 59, 59, 0.604);
+	;
+}
+
+.right-row div p {
+	font-size: 14px;
+	line-height: 1.6;
+	color: white;
+}
+
+.right-row div:nth-child(2) {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.right-row div:nth-child(2) span {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.right-row div:nth-child(3) {
+	margin-top: 10px;
+}
+
+.right-row div:nth-child(1) {
+	margin-bottom: 350px;
+}
