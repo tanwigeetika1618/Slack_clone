@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+.container-background {
+	margin-top: 55px;
+	background-color: #111111;
+	color: white;
+	padding-left: 70px;
+	width: 100%;
+	display: flex;
+}
+
+.container-background p {
+	padding-left: 5px;
+
+}
+
+.icon-container {
+	display: flex;
+	justify-content: flex;
+	align-items: center;
+	padding: 10px;
+	color: white;
+}
+
+.icon-item {
+	text-align: center;
+}
+
+.icon-item i {
+	font-size: 12px;
+}
+
+.icon-item span {
+	padding-right: 15px;
+	font-size: 10px;
+}
+
+.channel_text {
+	font-weight: bold;
+	color: rgb(0, 80, 94);
+	font-size: 12px;
+}
+
+.primary-text {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.second_member-text {
+	font-weight: bold;
+	color: grey;
+	font-size: 12px;
+}
+
+.container-medium {
+	background-color: rgba(0, 0, 0, 0.13);
+	color: white;
+	border-bottom: 0.1px solid #cccccc91;
+}
+
+.left-container {
+	flex-grow: 1;
+	margin-left: 300px;
+	margin-right: 200px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.right-container {
+    border-right: 0.1px solid #cccccc91;
+	flex-grow: 1;
+	padding: 20px;
+}

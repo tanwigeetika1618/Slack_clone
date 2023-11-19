@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <style>
+         .nav-item a {
+            text-decoration: none; 
+            color: inherit; 
+         }
+      </style>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/homepage.css">
@@ -10,16 +16,24 @@
    <body>
       <div class="vertical-navbar">
          <div class="nav-item home">
-            <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <a href="all_channel.html">
+               <i class="fa-solid fa-house"></i>
+               <span>Home</span>
+            </a>
          </div>
+         
          <div class="nav-item activity">
-            <i class="fas fa-bell"></i>
-            <span>Activity</span>
+            <a href="activity.html">
+               <i class="fas fa-bell"></i>
+               <span>Activity</span>
+            </a>
          </div>
+         
          <div class="nav-item dm">
-            <i class="fas fa-envelope"></i>
-            <span>DMs</span>
+            <a href="dms.html">
+               <i class="fas fa-envelope"></i>
+               <span>DMs</span>
+            </a>
          </div>
       </div>
       <div class="navbar">
