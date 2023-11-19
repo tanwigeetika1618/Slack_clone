@@ -1,0 +1,201 @@
+
+<!--{% load static %}-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SLACK</title>
+    <style>
+      .slack-logo {
+        max-width: 100px; 
+        max-height: 50px; 
+   
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="landingPage/vendors/owl-carousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="landingPage/vendors/owl-carousel/css/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="landingPage/vendors/mdi/css/materialdesignicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="landingPage/vendors/aos/css/aos.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="landingPage/css/style.min.css"
+    />
+  </head>
+  <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" class="header-small body-top-padding">
+    <header id="header-section">
+      <nav class="navbar navbar-expand-lg pl-3 pl-sm-0 fixed-top" id="navbar">
+        <div class="container">
+          <div class="navbar-brand-wrapper d-flex w-100"><img src="img/logo.png" alt="Slack Logo" class="slack-logo">
+            <p><h2>SLACK</h2></p>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-menu navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+              <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+                <div class="navbar-collapse-logo">
+                  <p><h1>SLACK</h1></p>
+                </div>
+                <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#header-section">Features <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#features-section">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#digital-marketing-section">Enterprise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feedback-section">Resources</a>
+              </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback-section">Pricing</a>
+            </li>
+            <li class="nav-item btn-contact-us">
+              <a href="sign_in.html" class="btn btn-info" >
+                Sign In
+              </a>
+            </li>
+            <li class="nav-item btn-contact-us">
+              <a href="sign_up.html" class="btn btn-info" >
+                Sign Up
+              </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="banner" style="
+    background-color: beige;
+    text-align: center;
+    ">
+      <div class="container">
+        <h1 class="font-weight-semibold">SLACK</h1><br>
+        <h6 class="font-weight-normal text-muted pb-3">
+            <strong>Made for people - Built for productivity</strong><br><br>
+            Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.
+        </h6>
+        <div>
+          <a href="{% url 'file' %}"><button class="btn btn-opacity-light mr-1">Get started</button></a>
+        </div>
+        <img src="landingPage/img/Group171.svg" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="content-wrapper" style="
+    background-color: #E0FFFF;
+    ">
+      <div class="container">
+        <section class="features-overview" id="features-section">
+          <div class="content-header">
+            <h2>Move faster with your tools in one place</h2><br>
+                Automate away routine tasks with the power of generative AI and simplify your workflow with all your favourite apps ready to go in Slack.
+            <h6 class="section-subtitle text-muted">
+              Empowering originality and academic integrity in content creation.
+              <br>
+              <br>
+              <br>
+              
+              </h6><h5>TRUSTED BY COMPANIES ALL OVER THE WORLD</h5>
+            
+    
+            <div class="companies__logos" style="
+                display: flex;
+                justify-items: center;
+                max-width: 3600px;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: space-around;
+                padding: 25px;
+                align-items: center;
+                background: aliceblue;
+                ">
+                <img src="landingPage/img/logo-ibm.png" alt="" class="img-icons">
+                <img src="landingPage/img/logo-rmit.png" alt="" class="img-icons">
+                <img src="landingPage/img/logo-seek.png" alt="" class="img-icons">
+                <img src="landingPage/img/logo-xero.png" alt="" class="img-icons">
+                <img src="landingPage/img/logo-deliveroo.png" alt="" class="img-icons">
+            </div>    
+
+          </div>
+          
+        </section>
+        
+        
+        
+
+        
+
+        <footer class="border-top">
+          <p class="text-center text-muted pt-4">
+            Made with <span class="mdi mdi-heart text-danger"></span> by Tanwi
+            Geetika.
+          </p>
+        </footer>
+        <!-- Modal for Contact - us Button -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="landingPage/vendors/jquery/jquery.min.js"></script>
+    <script src="landingPage/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="landingPage/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="landingPage/vendors/aos/js/aos.js"></script>
+    <script src="landingPage/js/landingpage.js"></script>
+  
+</body>
+</html>
